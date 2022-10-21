@@ -1,0 +1,25 @@
+print("                ,---.      .-._          .=-.-.       ")
+print("  _,..---._   .--.'  \    /==/ \  .-._  /==/_ /       ")
+print("/==/,   -  \  \==\-/\ \   |==|, \/ /, /|==|, |        ")
+print("|==|   _   _\ /==/-|_\ |  |==|-  \|  | |==|  |        ")
+print("|==|  .=.   | \==\,   - \ |==| ,  | -| |==|- |        ")
+print("|==|,|   | -| /==/ -   ,| |==| -   _ | |==| ,|        ")
+print("|==|  '='   //==/-  /\ - \|==|  /\ , | |==|- |        ")
+print("|==|-,   _`/ \==\ _.\=\.-'/==/, | |- | /==/. /        ")
+print("`-.`.____.'   `--`        `--`./  `--` `--`-`         \n")
+x = 0
+a = input("List angka interger: ")
+c = a.split(".")
+d = 0
+for b in (c):
+    if int(c[x]) % 2 == 0:
+        print("{0} adalah angka genap".format(c[x]))
+        d = 1
+    else:
+        print("{0} adalah angka ganjil".format(c[x]))
+    x = x + 1
+
+if d == 1:
+    print("List angka memiliki angka genap")
+else:
+    print("List angka tidak memiliki angka genap")
